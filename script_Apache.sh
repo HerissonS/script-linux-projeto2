@@ -6,8 +6,8 @@ apt-get update
 apt-get upgrade -y
 
 echo "Instalando Apache2 e unzip"
-apt-get install apache2
-apt-get install unzip
+apt-get install apache2 -y
+apt-get install unzip -y
 
 echo "Download da aplicacao"
 cd /tmp
